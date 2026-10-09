@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2046ef">
+  <meta name="description" content="Вечеринка у Данила дома! 9 лет. 12 октября 2026, 16:00. Санкт-Петербург, Парголово, Заречная 15к1.">
+  <meta property="og:title" content="Вечеринка у Данила дома · 12 октября">
+  <meta property="og:description" content="Данилу 9! Жду тебя 12 октября в 16:00.">
+  <title>Вечеринка у Данила дома · 9 лет</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232046ef'/%3E%3Ctext x='32' y='49' text-anchor='middle' font-family='Arial' font-weight='900' font-size='48' fill='%23e9ff67'%3E9%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="assets/oswald-bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/manrope-bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="poster">
+    <header class="topline">
+      <span class="invite-label">ТЫ В СПИСКЕ ГОСТЕЙ</span>
+      <span class="edition">BIRTHDAY PARTY / VOL. 09</span>
+      <button class="beat" id="beat" type="button" aria-pressed="false" aria-label="Включить музыкальный бит">
+        <span class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span id="beat-label">БИТ: ВЫКЛ.</span>
+      </button>
+    </header>
+
+    <section class="stage" aria-label="Приглашение на день рождения Данила">
+      <div class="halo" aria-hidden="true"></div>
+      <div class="backword" aria-hidden="true">PARTY</div>
+      <div class="headline">
+        <p class="eyebrow">ДЕНЬ РОЖДЕНИЯ. ПО-ДОМАШНЕМУ. ПО-ГРОМКОМУ.</p>
+        <h1><span class="line first">ВЕЧЕРИНКА</span><span class="line original">У <del>ДЕЦЛА</del></span><span class="line replacement">ДАНИЛА</span><span class="line home">ДОМА</span></h1>
+        <p class="invitation">Мне исполняется 9.<br>И эта вечеринка — для тебя!</p>
+      </div>
+      <div class="portrait-wrap" id="portrait">
+        <img class="portrait" src="assets/danil.png" alt="Данил в красной спортивной куртке, джинсах и кроссовках" width="1086" height="1448" fetchpriority="high">
+      </div>
+      <div class="age" aria-label="Данилу 9 лет"><span class="age-small">МНЕ УЖЕ</span><strong>9</strong><span class="age-small">ЛЕТ!</span></div>
+      <span class="sticker" aria-hidden="true">СВОИ ЛЮДИ.<br>ХОРОШИЙ БИТ.</span>
+      <span class="tiny-note" aria-hidden="true">СТАРАЯ ШКОЛА / НОВЫЙ ИМЕНИННИК</span>
+    </section>
+
+    <footer class="ticket">
+      <div class="when"><span class="ticket-label">КОГДА</span><strong>12 ОКТЯБРЯ <span>2026</span></strong><span class="day">ПОНЕДЕЛЬНИК <b>16:00</b></span></div>
+      <div class="where"><span class="ticket-label">ГДЕ ТУСИМ</span><p>Санкт-Петербург, Парголово<br><strong>ул. Заречная, 15к1 · кв. 570</strong></p></div>
+    </footer>
+    <canvas id="confetti" aria-hidden="true"></canvas>
+  </main>
+</body>
+</html>
