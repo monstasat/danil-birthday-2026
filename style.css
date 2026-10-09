@@ -38,6 +38,6 @@
 @media(max-height:480px) and (min-width:601px){.where p{font-size:12px}.ticket-label{font-size:10px}}
 
 /* Scale the text to the badge itself, keeping space inside the round edge. */
-.age{container-type:size;gap:2px}
-.age strong{font-size:52cqw;line-height:1;flex:none}
+.age{container-type:size;gap:0}
+.age strong{font-size:46cqw;line-height:1;flex:none}
 .age-small{font-size:9cqw;line-height:1.25;letter-spacing:.04em;white-space:nowrap;flex:none}
